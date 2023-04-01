@@ -2,7 +2,7 @@ import logo from "../assets/recipe-book.png";
 
 export default function Navbar(props) {
   return (
-    <nav className="flex items-center justify-between text-white mb-5 p-8 h-30 shadow-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+    <nav className="flex items-center justify-between text-white mb-5 p-8 h-30 shadow-md bg-gradient-to-r from-black via-gray-900 to-gray-700">
       <div className="flex items-center h-full">
         <img src={logo} className="h-11 mr-2" alt="Recipe Finder Logo" />
         <h1 className="text-2xl font-medium">Recipe Finder</h1>
